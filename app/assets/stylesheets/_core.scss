@@ -30,33 +30,29 @@ html.home{
 
 #home .hero{
 	width: 100%;
-	height: 446px;
-	background: image-url("home/hero.jpg") center center no-repeat;
-	background-size: 1600px 446px;
-	overflow: hidden;
-	position: relative;
-	letter-spacing: .09em;
-	margin: 0 auto;
+	
 }
 
 #home .hero .large{
 	font-weight: bold;
 	font-size: 40px;
-	color: #074E6F;
+	color: white;
 	text-transform: uppercase;
 	margin: 85px 0 0 136px;
-	position: relative;
+	position: absolute;
+	top: 20px;
 	z-index: 2;
 	letter-spacing: 2px;
 }
 
 #home .hero .small{
 	font-weight: bold;
-	color: #955F5D;
+	color: white;
 	font-size: 18px;
 	margin: 10px 0 0 115px;
 	line-height: 30px;
-	position: relative;
+	position: absolute;
+	top: 175px;
 	z-index: 2;
 	text-transform: uppercase;
 	text-align: center;
