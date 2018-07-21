@@ -256,13 +256,14 @@ html.home{
 }
 
 #refer .header .content{
-	width: 315px;
+	width: 100%;
+	text-align:center;
 	margin: 0 auto;
 }
 
 #refer .header p{
-	float: left;
 	color: #FFF;
+	text-align:center;
 	font-weight: 500;
 	text-transform: uppercase;
 	line-height: 50px;
@@ -271,18 +272,19 @@ html.home{
 #refer .header .byline{
 	font-size: 14px;
 }
-
+#logo{
+	margin-right:15px;
+	font-weight:bold;
+	font-size:21px;
+}
 #refer .header .logo{
 	font-weight: normal;
 	font-size: 0;
 	line-height: 0;
 	margin-right: 14px;
 	letter-spacing: 1px;
-	background: image-url("refer/logo.png") 0 0 no-repeat;
-	background-size: 106px 19px;
 	height: 19px;
-	width: 106px;
-	margin-top: 15px;
+	margin-top: 21px;
 }
 
 #refer .hero{
@@ -293,8 +295,8 @@ html.home{
 
 #refer .mammoth{
 	width: 612px;
-	height: 394px;
-	background: image-url("refer/mammoth.png") 0 0 no-repeat;
+	height: 356px;
+	background: image-url("Referral_Landing.jpg") 0 0 no-repeat;
 	background-size: 610px 394px;
 	overflow: hidden;
 	margin-top: 15px;
@@ -302,7 +304,7 @@ html.home{
 }
 
 #refer .mammoth .need{
-	color: #FFF;
+	color: palevioletred;
 	font-size: 38px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -631,7 +633,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 
 	#refer .mammoth{
-		background: image-url("refer/mammoth@2x.png") 0 0 no-repeat;
+		background: image-url("Evolution_of_basketball.png") 0 0 no-repeat;
 		background-size: 610px 394px;
 	}
 
