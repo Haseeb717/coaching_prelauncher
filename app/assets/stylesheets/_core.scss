@@ -16,7 +16,7 @@ form{
 /* Home */
 
 html.home{
-	background: #EDECEA;
+	background: #61080B;
 }
 
 #home{
@@ -77,7 +77,7 @@ html.home{
 #home .form-wrap .byline{
 	font-size: 15px;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: white;
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -88,15 +88,15 @@ html.home{
 	float: left;
 	font-size: 13px;
 	padding: 8px 0 8px 10px;
-	border: 1px solid #074E6F;
 	width: 256px;
 	outline: none;
+	border-radius: 0;
 	letter-spacing: 1px;
 }
 
 #home .form-wrap .submit{
 	width: 143px;
-	background: #074E6F;
+	background: orange;
 	float: left;
 	height: 37px;
 	line-height: 37px;
@@ -292,7 +292,7 @@ html.home{
 #refer .mammoth{
 	width: 612px;
 	height: 356px;
-	background: image-url("Referral_Landing.jpg") 0 0 no-repeat;
+	background: image-url("Referral_Landing.png") 0 0 no-repeat;
 	background-size: 610px 394px;
 	overflow: hidden;
 	margin-top: 15px;
@@ -333,7 +333,7 @@ html.home{
 	line-height: 40px;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #074E6F;
+	color: black;
 	margin-top: 18px;
 	letter-spacing: .13em;
 }
@@ -401,7 +401,7 @@ html.home{
 #refer .prizes .callout{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: black;
 	font-weight: bold;
 	margin: 20px 0 0 0;
 	letter-spacing: 2px;
@@ -449,7 +449,7 @@ html.home{
 #refer .prizes .products li.title{
 	height: 100%;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: black;
 	font-weight: 500;
 	font-size: 14px;
 	float: left;
@@ -470,11 +470,15 @@ html.home{
 
 #refer .prizes .products li.product{
 	height: 100%;
-	color: #074E6F;
+	color: black;
 	width: 125px;
 	margin-right: 129px;
 	float: left;
 	position: relative;
+	font-weight: 500;
+    font-size: 14px;
+    font-weight: bold;
+
 }
 
 #refer .prizes .products li.product .circle{
@@ -514,7 +518,7 @@ html.home{
 
 #refer .prizes .products li.product p{
 	text-align: center;
-	font-weight: 500;
+	font-weight: bold;
 }
 
 #refer .prizes .products li.product:last-child{
@@ -538,7 +542,7 @@ html.home{
 
 #refer .prizes .products li.product:hover .circle{
 	color: #FFF;
-	background: #074E6F;
+	background: black;
 	border-color: #074E6F;
 }
 
@@ -557,7 +561,7 @@ html.home{
 	margin: 0 auto;
 	display: block;
 }
-
+strong{font-weight:bold;}
 #refer .prizes .products li.product:hover .tooltip{
 	display: block;
 }
@@ -565,14 +569,14 @@ html.home{
 #refer .prizes p.place{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: black;
 	width: 100%;
 	font-weight: 500;
 	margin-top: 30px;
 }
 
 #refer .prizes p.place span{
-	color: #995F5E;
+	color: black;
 }
 
 #refer .prizes p.check{
