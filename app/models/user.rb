@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
       'html' => '1 TRAINING SESSION',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'cream-tooltip@2x.png')
+        'cream-tooltip.jpg')
     },
     {
       'count' => 10,
