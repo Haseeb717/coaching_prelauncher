@@ -19,28 +19,28 @@ class User < ActiveRecord::Base
       'html' => '1 TRAINING SESSION',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'refer/cream-tooltip.png')
+        'refer/cream-tooltip.jpg')
     },
     {
       'count' => 10,
       'html' => '3 TRAINING SESSIONS',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/truman.png')
+        'refer/truman.jpg')
     },
     {
       'count' => 25,
       'html' => '6 TRAINING SESSIONS',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/blade-explain.png')
+        'refer/blade-explain.jpg')
     },
     {
       'count' => 50,
       'html' => '12 TRAINING SESSIONS',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/winston.png')
+        'refer/winston.jpg')
     }
   ]
 
