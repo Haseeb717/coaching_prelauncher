@@ -11,10 +11,10 @@
     </div>
     <div class="share-wrap">
       <p class="why brandon">Don't leave your friends behind</p>
-      <p class="title brandon">INVITE FRIENDS &<br>Earn Product</p>
-      <p class="subtitle brandon">Share your unique link via <br> email, Facebook,Twitter and <br>Instagram and earn free<br>basketball training for each <br> who signs up.</p>
+      <p class="title brandon">INVITE FRIENDS &<br>EARN FREE TRAINING</p>
+      <p class="subtitle brandon">Share your unique link via <br> email, Facebook,Twitter <br>and earn free<br>basketball training for each <br> who signs up.</p>
       <div class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
-      <% twitter_message = "#Shaving is evolving. Excited for @Localhoops to launch." %>
+      <% twitter_message = "#Basketball #training is evolving. Excited for @Localhoops to launch." %>
       <div class="social-links">
         <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Localhoops" class="fb" target="_blank"></a>
         <div class="sep"></div>
