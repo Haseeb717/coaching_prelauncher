@@ -16,25 +16,25 @@ class User < ActiveRecord::Base
   REFERRAL_STEPS = [
     {
       'count' => 5,
-      'html' => '1 TRAINING SESSION',
+      'html' => '1 FREE SESSION OR COURT RENTAL',
       'class' => 'two',
       'image' =>  'cream-tooltip.jpg'
     },
     {
       'count' => 10,
-      'html' => '3 TRAINING SESSIONS',
+      'html' => '3 FREE SESSIONS OR COURT RENTALS',
       'class' => 'three',
       'image' => 'truman.jpg'
     },
     {
       'count' => 25,
-      'html' => '6 TRAINING SESSIONS',
+      'html' => '6 FREE SESSIONS OR COURT RENTALS',
       'class' => 'four',
       'image' => 'blade-explain.jpg'
     },
     {
       'count' => 50,
-      'html' => '12 TRAINING SESSIONS',
+      'html' => '12 FREE SESSIONS OR COURT RENTALS',
       'class' => 'five',
       'image' => 'winston.jpg'
     }
