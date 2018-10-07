@@ -6,26 +6,25 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="<%= @bodyId %>"> <!--<![endif]-->
 <head>
   <title>Localhoops&#8217;s &ndash; BASKETBALL TRAINING IS EVOLVING</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="<%= asset_path('favicon.png') %>" type="image/x-icon">
   <link rel="shortcut icon" href="<%= asset_path('favicon.png') %>" type="image/x-icon">
-
+  <link href='http://fonts.googleapis.com/css?family=Lato&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <meta property="og:title" content="Localhoops is coming!"/>
   <meta property="og:description" content="BASKETBALL TRAINING IS EVOLVING"/>
   <meta property="og:image" content="<%= asset_path("refer/truman.png") %>"/>
   <meta property="og:url" content="<%= root_url %>"/>
-  <% if @is_mobile %>
-    <% if @bodyId == 'home' %>
-      <meta name="viewport" content="width=1600" />
-    <% else %>
-      <meta name="viewport" content="width=1120" />
-    <% end %>
-  <% end %>
+  
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= csrf_meta_tags %>
 </head>
-<body id="<%= @bodyId %>">
-
-<%= yield %>
+<body >
+  <section id='content-wrapper'>
+    <main id='content'>
+      <%= yield %>
+    </main>
+  </section>
 
 
 </body>

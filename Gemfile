@@ -8,6 +8,7 @@ gem 'devise'
 gem 'pg'
 gem 'rails', '4.2.10'
 gem 'unicorn'
+gem "font-awesome-rails"
 
 
 # Gems used only for assets and not required

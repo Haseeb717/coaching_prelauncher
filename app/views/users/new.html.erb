@@ -1,14 +1,38 @@
-<div class="hero">
-	<%= image_tag "landing_img.jpg" %>
-  <!-- <p class="large brandon">LOCALHOOPS IS COMING TO CENTRAL INDIANA </p>
-  <p class="small brandon">LOCAL TRAINERS & COURTS BY THE HOUR</p> -->
+<section id='main'>
+	<div class='cover'>
+		<h1 class='cover-title'>TRAINERS AND COURTS</h1>
+		<h3 class='cover-subtitle'>Central Indiana's Booking Hub </h3>
+		<h3 class='cover-subtitle_2'><b>Launching November 2018</b></h3>
+		<div id='form-wrapper'>
+			<% if Rails.application.config.ended %>
+		    <%= render "users/campaign_ended" %>
+		  <% else %>
+		    <%= render "users/campaign_ongoing" %>
+		  <% end %>
+		</div>
+	</div>
+</section>
+
+<!-- <div class="row">
+
+	<div class="col-md-12 hero">
+		<%= image_tag "landing_img.jpg" %>
+	</div>
+
 </div>
 
-<div class="form-wrap clearfix <%= "ended" if Rails.application.config.ended %>">
-  <% if Rails.application.config.ended %>
-    <%= render "users/campaign_ended" %>
-  <% else %>
-    <%= render "users/campaign_ongoing" %>
-  <% end %>
+<div class="row">
+	<div class="col-md-12 ">
+		<div class="col-md-4"></div>
+		<div class="col-md-4 col-xs-12 form-wrap clearfix <%= "ended" if Rails.application.config.ended %>">
+		  <% if Rails.application.config.ended %>
+		    <%= render "users/campaign_ended" %>
+		  <% else %>
+		    <%= render "users/campaign_ongoing" %>
+		  <% end %>
+		</div>
+		<div class="col-md-4"></div>
+	</div>
 </div>
 
+ -->

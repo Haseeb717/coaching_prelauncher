@@ -86,6 +86,8 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
+    font-awesome-rails (4.7.0.4)
+      railties (>= 3.2, < 6.0)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
@@ -249,6 +251,7 @@ DEPENDENCIES
   delayed_job_active_record (~> 4.1.2)
   devise
   dotenv-rails
+  font-awesome-rails
   pg
   pry
   rails (= 4.2.10)
@@ -265,4 +268,4 @@ RUBY VERSION
    ruby 2.5.0p0
 
 BUNDLED WITH
-   1.16.1
+   1.16.4

@@ -1,4 +1,5 @@
-<%= form_for @user, :url => { :action => "create" } do |f| %>
-  <%= f.text_field :email, :placeholder => "Enter Email", :class => "email brandon" %>
-  <input class="submit brandon" name="commit" type="submit" value="Step Inside" />
+<%= form_for @user, :url => { :action => "create" },:class=>"simple_form form-inline" do |f| %>
+  <div class="form-group email required user_email"><%= f.text_field :email, :placeholder => "Enter Email", :class => "string email required form-control" %></div>
+  <div class='form-group submit'><input class="btn btn btn-branded" name="commit" type="submit" value="Step Inside" /></div>
 <% end %>
+<small>Be the first one to know</small>

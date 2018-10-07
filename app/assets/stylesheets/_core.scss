@@ -13,32 +13,32 @@ form{
 }
 
 
-/* Home */
+/* home2 */
 
-html.home{
+html.home2{
 	background: grey;
 }
 
-#home{
+#home2{
 	padding-bottom: 50px;
 }
 
-#home .page-content{
+#home2 .page-content{
 	width: 1400px;
 	margin: 0 auto;
 }
 
-#home .hero{
+#home2 .hero{
 	width: 100%;
 	height: 875px;
 	text-align: center;
 }
 
-#home .hero img{
+#home2 .hero img{
 	max-height: 100%;
 }
 
-#home .hero .large{
+#home2 .hero .large{
 	font-weight: bold;
 	font-size: 40px;
 	color: white;
@@ -50,7 +50,7 @@ html.home{
 	letter-spacing: 2px;
 }
 
-#home .hero .small{
+#home2 .hero .small{
 	font-weight: bold;
 	color: white;
 	font-size: 18px;
@@ -65,21 +65,21 @@ html.home{
 	letter-spacing: 1px;
 }
 
-#home .form-wrap{
+#home2 .form-wrap{
 	height: 80px;
 	width: 411px;
 	margin: 23px auto 0;
 }
 
-#home .form-wrap .key{
+#home2 .form-wrap .key{
 	width: 46px;
 	height: 19px;
 	margin: 0 auto;
-	background: image-url("home/key.png") 0 0 no-repeat;
+	background: image-url("home2/key.png") 0 0 no-repeat;
 	background-size: 46px 19px;
 }
 
-#home .form-wrap .byline{
+#home2 .form-wrap .byline{
 	font-size: 15px;
 	text-transform: uppercase;
 	color: white;
@@ -89,7 +89,7 @@ html.home{
 	margin: 15px 0;
 }
 
-#home .form-wrap .email{
+#home2 .form-wrap .email{
 	float: left;
 	font-size: 13px;
 	padding: 8px 0 8px 10px;
@@ -99,7 +99,7 @@ html.home{
 	letter-spacing: 1px;
 }
 
-#home .form-wrap .submit{
+#home2 .form-wrap .submit{
 	width: 143px;
 	background: #f89406;
 	float: left;
@@ -112,12 +112,12 @@ html.home{
 	letter-spacing: 2px;
 }
 
-#home .form-wrap.ended{
+#home2 .form-wrap.ended{
 	width: 500px;
 	margin-top: 27px;
 }
 
-#home .form-wrap.ended .thanks{
+#home2 .form-wrap.ended .thanks{
 	text-transform: uppercase;
 	font-weight: 500;
 	color: #074e6f;
@@ -128,7 +128,7 @@ html.home{
 	margin-bottom: 14px;
 }
 
-#home .form-wrap.ended .compiling{
+#home2 .form-wrap.ended .compiling{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 14px;
@@ -139,7 +139,7 @@ html.home{
 	margin-bottom: 24px;
 }
 
-#home .form-wrap.ended .go-to{
+#home2 .form-wrap.ended .go-to{
 	font-style: italic;
 	font-size: 16px;
 	letter-spacing: 1px;
@@ -147,7 +147,7 @@ html.home{
 	margin-bottom: 25px;
 }
 
-#home .form-wrap.ended .go-to a{
+#home2 .form-wrap.ended .go-to a{
 	color: #074e6f;
 	font-size: 19px;
 	font-weight:bold;
@@ -156,11 +156,11 @@ html.home{
 	text-decoration: none;
 }
 
-#home .form-wrap.ended .go-to a:hover{
+#home2 .form-wrap.ended .go-to a:hover{
 	color: #955F5D;
 }
 
-#home .form-wrap.ended .again{
+#home2 .form-wrap.ended .again{
 	font-weight: 500;
 	color: #555556;
 	text-transform: uppercase;
@@ -168,12 +168,12 @@ html.home{
 	text-align: center;
 }
 
-#home .form-wrap.ended{
+#home2 .form-wrap.ended{
 	width: 500px;
 	margin-top: 27px;
 }
 
-#home .form-wrap.ended .thanks{
+#home2 .form-wrap.ended .thanks{
 	text-transform: uppercase;
 	font-weight: 500;
 	color: #074e6f;
@@ -184,7 +184,7 @@ html.home{
 	margin-bottom: 14px;
 }
 
-#home .form-wrap.ended .compiling{
+#home2 .form-wrap.ended .compiling{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 14px;
@@ -195,7 +195,7 @@ html.home{
 	margin-bottom: 24px;
 }
 
-#home .form-wrap.ended .go-to{
+#home2 .form-wrap.ended .go-to{
 	font-style: italic;
 	font-size: 16px;
 	letter-spacing: 1px;
@@ -203,7 +203,7 @@ html.home{
 	margin-bottom: 25px;
 }
 
-#home .form-wrap.ended .go-to a{
+#home2 .form-wrap.ended .go-to a{
 	color: #074e6f;
 	font-size: 19px;
 	font-weight:bold;
@@ -212,11 +212,11 @@ html.home{
 	text-decoration: none;
 }
 
-#home .form-wrap.ended .go-to a:hover{
+#home2 .form-wrap.ended .go-to a:hover{
 	color: #955F5D;
 }
 
-#home .form-wrap.ended .again{
+#home2 .form-wrap.ended .again{
 	font-weight: 500;
 	color: #555556;
 	text-transform: uppercase;
@@ -392,18 +392,17 @@ html.home{
 	margin: 0 20px;
 }
 
-#refer .prizes{
+.prizes{
 	width: 100%;
 	background: #FFF;
-	border-top: 1px solid #D2D1C8;
 	padding-bottom: 100px;
 }
 
-#refer .prizes .page-content{
+.prizes .page-content{
 	position: relative;
 }
 
-#refer .prizes .callout{
+.prizes .callout{
 	text-align: center;
 	font-size: 16px;
 	color: black;
@@ -413,7 +412,7 @@ html.home{
 	text-transform: uppercase;
 }
 
-#refer .prizes .progress{
+.prizes .progress{
 	height: 4px;
 	width: 100%;
 	background: image-url("refer/progress-bg.png") 0 0 repeat-x;
@@ -423,13 +422,13 @@ html.home{
 	z-index: 0;
 }
 
-#refer .prizes .progress .mover{
+.prizes .progress .mover{
 	position: absolute;
 	top: 0;
 	left: 0;
 }
 
-#refer .prizes .progress .mover .bar{
+.prizes .progress .mover .bar{
 	background: image-url("refer/progress-done.png") 0 0 repeat-x;
 	width: 165px;
 	height: 4px;
@@ -443,7 +442,7 @@ html.home{
 #refer .prize-five .progress .mover .bar{ width: 1120px; }
 
 
-#refer .prizes ul.products{
+.prizes ul.products{
 	height: 105px;
 	width: 100%;
 	margin-top: 30px;
@@ -451,7 +450,7 @@ html.home{
 	z-index: 1;
 }
 
-#refer .prizes .products li.title{
+.prizes .products li.title{
 	height: 100%;
 	text-transform: uppercase;
 	color: black;
@@ -463,17 +462,17 @@ html.home{
 	font-weight: bold;
 }
 
-#refer .prizes .products li.title .friends{
+.prizes .products li.title .friends{
 	margin-top: 7px;
 	letter-spacing: 2px;
 }
 
-#refer .prizes .products li.title .rewards{
+.prizes .products li.title .rewards{
 	margin-top: 45px;
 	letter-spacing: 2px;
 }
 
-#refer .prizes .products li.product{
+.prizes .products li.product{
 	height: 100%;
 	color: black;
 	width: 125px;
@@ -486,7 +485,7 @@ html.home{
 
 }
 
-#refer .prizes .products li.product .circle{
+.prizes .products li.product .circle{
 	height: 30px;
 	width: 30px;
 	border-radius: 15px;
@@ -500,14 +499,14 @@ html.home{
 	margin: 0 auto;
 }
 
-#refer .prizes .products li.product .sep{
+.prizes .products li.product .sep{
 	width: 12px;
 	height: 2px;
 	background: transparent;
 	margin: 13px auto 13px;
 }
 
-#refer .prizes .products li.product .caret{
+.prizes .products li.product .caret{
 	width: 100%;
 	height: 10px;
 	background: image-url("refer/caret.png") center center no-repeat;
@@ -516,42 +515,42 @@ html.home{
 	bottom: -15px;
 }
 
-#refer .prizes .products li.product.selected .caret{
+.prizes .products li.product.selected .caret{
 	background: image-url("refer/caret-selected.png") center center no-repeat;
 	background-size: 16px 10px;
 }
 
-#refer .prizes .products li.product p{
+.prizes .products li.product p{
 	text-align: center;
 	font-weight: bold;
 }
 
-#refer .prizes .products li.product:last-child{
+.prizes .products li.product:last-child{
 	margin-right: 0;
 }
 
-#refer .prizes .products li.product.last{
+.prizes .products li.product.last{
 	margin-right: 0;
 }
 
-#refer .prizes .products li.product.selected .circle{
+.prizes .products li.product.selected .circle{
 	background: #995F5E !important;
 	border-color: #995F5E !important;
 	color: #FFF !important;
 }
 
 
-#refer .prizes .products li.product.selected p{
+.prizes .products li.product.selected p{
 	color: #995F5E !important;
 }
 
-#refer .prizes .products li.product:hover .circle{
+.prizes .products li.product:hover .circle{
 	color: #FFF;
 	background: black;
 	border-color: #074E6F;
 }
 
-#refer .prizes .products li.product .tooltip{
+.prizes .products li.product .tooltip{
 	height: 254px;
 	width: 190px;
 	border: 4px solid #074E6F;
@@ -562,16 +561,16 @@ html.home{
 	background: #FFF;
 }
 
-#refer .prizes .products li.product .tooltip img{
+.prizes .products li.product .tooltip img{
 	margin: 0 auto;
 	display: block;
 }
 strong{font-weight:bold;}
-#refer .prizes .products li.product:hover .tooltip{
+.prizes .products li.product:hover .tooltip{
 	display: block;
 }
 
-#refer .prizes p.place{
+.prizes p.place{
 	text-align: center;
 	font-size: 16px;
 	color: black;
@@ -580,11 +579,11 @@ strong{font-weight:bold;}
 	margin-top: 30px;
 }
 
-#refer .prizes p.place span{
+.prizes p.place span{
 	color: black;
 }
 
-#refer .prizes p.check{
+.prizes p.check{
 	text-align: center;
 	font-size: 16px;
 	color: #858181;
@@ -593,7 +592,7 @@ strong{font-weight:bold;}
 	margin-top: 5px;
 }
 
-#refer .prizes p.ship{
+.prizes p.ship{
 	text-align: center;
 	font-size: 16px;
 	color: #858181;
@@ -602,7 +601,7 @@ strong{font-weight:bold;}
 	margin-top: 50px;
 }
 
-#refer .prizes a.policy{
+.prizes a.policy{
 	text-align: center;
 	font-size: 12px;
 	color: #CCCCCC;
@@ -622,12 +621,12 @@ strong{font-weight:bold;}
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
-	#home .hero{
+	#home2 .hero{
 		text-align: -webkit-center !important;
 	}
 
-	#home .form-wrap .key{
-		background: image-url("home/key@2x.png") 0 0 no-repeat;
+	#home2 .form-wrap .key{
+		background: image-url("home2/key@2x.png") 0 0 no-repeat;
 		background-size: 46px 19px;
 	}
 
@@ -651,27 +650,27 @@ only screen and (min-device-pixel-ratio: 2) {
 		background-size: 27px 27px;
 	}
 
-	#refer .prizes .progress{
+	.prizes .progress{
 		background: image-url("refer/progress-bg@2x.png") 0 0 repeat-x;
 		background-size: 1px 4px;
 	}
 
-	#refer .prizes .progress .mover .bar{
+	.prizes .progress .mover .bar{
 		background: image-url("refer/progress-done@2x.png") 0 0 repeat-x;
 		background-size: 1px 4px;
 	}
 
-	#refer .prizes .progress .mover .razor{
+	.prizes .progress .mover .razor{
 		background: image-url("refer/razor@2x.png") 0 0 no-repeat;
 		background-size: 82px 23px;
 	}
 
-	#refer .prizes .products li.product .caret{
+	.prizes .products li.product .caret{
 		background: image-url("refer/caret@2x.png") center center no-repeat;
 		background-size: 16px 10px;
 	}
 
-	#refer .prizes .products li.product.selected .caret{
+	.prizes .products li.product.selected .caret{
 		background: image-url("refer/caret-selected@2x.png") center center no-repeat;
 		background-size: 16px 10px;
 	}
